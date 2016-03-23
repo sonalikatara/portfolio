@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2016, 12:11:35 PM
+    Author     : sonali
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before{
+    display: inline-block;
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    width: 2em;
+}
+a:hover [class*="zocial-"]:before {
+  color:  #616161;
+  /*#3d85c6;*/
+}
+
+* {
+   /* border: 1px solid red !important; */
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color:#f8f8f8  ;
+}
+hr{
+    border-width: .25em;
+    border-color: #747704;   
+}
+
+.container{
+    background-color: white;
+}
+.navbar-brand {
+  
+  color: #616161;
+}
+
+.nav a { 
+  text-transform: uppercase;
+  color: #616161;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    color: #808080; 
+}
+
+h2{
+     font-size: 25px;
+    color: #e85c0f;
+}
+
+h3{   
+    color: #545454;
+    text-transform: uppercase;
+    
+}
+
+.text-right{
+   text-align: right;
+}
+
+.main-img{
+    text-align: right;
+    color: #808080;
+    font-weight: bold ;
+    background: #fff url(../images/fixed/top-main.jpg) no-repeat bottom center;
+    /*max-width: 1200px;*/
+    width: 100%;
+    height: 230px;    
+    min-height:100%;    
+}
+
+.feature{
+    padding-top: 12px;   
+    text-align: center;
+    background: #f5f5f5; 
+   
+}
+
+.feature-img{
+    height:480px;
+     margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
+
+.featurealt{
+    padding-top: 12px;
+    text-align: center;
+    background: #e2e2e2;
+    
+}
+
+.social{
+    
+    line-height: 2em;
+   
+}
+
+.social a {
+     margin: 0 1em 0 0;    
+}
+
+.social a:last-of-type{
+    margin: 0;
+}
+@media screen and (max-width: 488px){
+    .main-img{
+        color:#000;
+         background: #fff url(../images/header/top-main-488_sm.jpg) no-repeat bottom center;
+         height: 100px;    
+    }
+}
